@@ -547,9 +547,9 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
-  #define DEFAULT_bedKp 97.1
-  #define DEFAULT_bedKi 1.41
-  #define DEFAULT_bedKd 1675.16
+  #define DEFAULT_bedKp 36.57
+  #define DEFAULT_bedKi 5.86
+  #define DEFAULT_bedKd 152.15
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -1133,8 +1133,8 @@
 #define Y_BED_SIZE 220
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -44
-#define Y_MIN_POS -4
+#define X_MIN_POS -39
+#define Y_MIN_POS -13
 #define Z_MIN_POS 0
 #define X_MAX_POS 245
 #define Y_MAX_POS Y_BED_SIZE
